@@ -41,4 +41,4 @@ Instead of manually CTRL+F searching hundreds of case numbers, this tool parses 
 Run the script from the command line by providing your Master Database (Excel/CSV) and the Court Causelist (PDF).
 
 ```bash
-python causelist_parser.py --master master_data.xlsx --query daily_list.pdf --out results.xlsx
+python legalparser.py --master master_data.xlsx --query daily_list.pdf --out results.xlsx
